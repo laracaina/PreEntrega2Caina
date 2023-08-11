@@ -1,0 +1,367 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/*
+tipografias
+
+font-family: 'Bona Nova', serif;
+font-family: 'Italiana', serif;
+
+*/
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #FFC26F;
+    align-items: center ;
+}
+
+.h2Header{
+    color: black;
+    font-family: 'Italiana' , serif;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-right: 1.25rem;
+}
+
+.navbar li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    font-family: 'Italiana' , serif;
+}
+
+main{
+    background-color: #F9E0BB;
+}
+
+h1{
+    font-family: 'Italiana' , serif;
+    font-size: 6rem;
+    color: #884A39;
+}
+
+.sectionPrincipal{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionPrincipal img{
+    height: 25rem;
+    width: 60rem;
+    
+}
+
+.caja{
+    display: flex;
+    width: 35rem;
+    height: 25rem;
+    background-color: #C38154;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja p{
+    font-family: 'Italiana' , serif;
+    font-size: 1.25rem;
+    color: #884A39;
+    font-weight: bolder;
+}
+
+.circuloUno{
+    width: 13rem;
+    height: 13rem;
+    background-image: url(../assets/img/gallery.jpg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circuloUno p{
+    font-family: 'Italiana' , serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.circuloDos{
+    width: 13rem;
+    height: 13rem;
+    background-image: url(../assets/img/photo1.jpg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circuloDos p{
+    font-family: 'Italiana' , serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.circuloTres{
+    width: 13rem;
+    height: 13rem;
+    background-image: url(../assets/img/photo1.jpg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circuloTres p{
+    font-family: 'Italiana' , serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.circuloCuatro{
+    width: 13rem;
+    height: 13rem;
+    background-image: url(../assets/img/photo1.jpg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circuloCuatro p{
+    font-family: 'Italiana' , serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.cuadradoBlanco{
+    height: 10rem;
+    background-color: white;
+    font-family: 'Bona Nova' , serif;
+}
+
+.cuadradoBlanco h3{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.cuadradoBlanco p{
+    padding-top: 0.5rem;
+    padding-left: 25rem;
+    font-size: 1.10rem;
+    padding-right: 4rem;
+}
+
+.sectionAbajo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.sectionAbajo img{
+    width: 18rem;
+    height: 24rem;
+}
+
+.cuadradoDeAbajo{
+    width: 20rem;
+    height: 4rem;
+    background-image: url(../assets/img/photo1.jpg);
+    
+}
+
+.cuadradoDeAbajo1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 8rem;
+}
+
+.cuadradoDeAbajo p{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-family: 'Italiana' , serif;
+    font-weight: bolder;
+}
+
+footer img{
+    width: 2rem;
+    height: 2rem;
+}
+footer p{
+    font-family: 'Bona Nova' , serif;
+    text-align: center;
+}
+
+footer{
+    background-color: #FFC26F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeriaPinturas img{
+    width: 13rem;
+    height: 17rem;
+}
+
+.galeriaPinturas{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.galeriaPinturas figure figcaption{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Italiana' , serif;
+    font-weight: bolder;
+}
+
+.cuadradoMarron{
+    height: 10rem;
+    background-color: rgb(107, 51, 21);
+    font-family: 'Bona Nova' , serif;
+}
+.cuadradoMarron h3{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    
+}
+
+.cuadradoMarron p{
+    color: white;
+    padding-right: 8rem;
+    padding-left: 20rem;
+}
+
+.cuadradoArriba{
+    background-image: url(../assets/img/galeria.jpg);
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cuadradoArriba h4{
+    font-size: 2.1875rem;
+    font-family: 'Italiana' , serif;
+    color: #F9E0BB;
+    
+}
+
+.cuadradoServicios{
+    width: 50%;
+    height: 15rem;
+    background-color: rgb(107, 51, 21);
+    color: white;
+    font-family: 'Bona Nova' , serif;
+    
+}
+
+.cuadradoServicios img{
+    height: 15rem;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.cuadradoServicios2{
+    width: 50%;
+    height: 15rem;
+    background-color: rgb(107, 51, 21);
+    color: white;
+    font-family: 'Bona Nova' , serif;
+    
+}
+
+.cuadradoServicios2 img{
+    height: 15rem;
+    width: 50%;
+}
+
+.sectionContacto{
+    height: 25rem;
+    width: 45rem;
+}
+
+.sectionContacto img{
+width: 15rem;
+height: 20rem;
+}
+
+.sectionContacto p{
+    font-family: 'Bona Nova' , serif;
+    text-align: center;
+}
+
+.h2Contacto{
+    font-family: 'Italiana' , serif;
+    font-size: 2rem;
+    text-align: center;
+
+}           
+    
+
+.col-sm-12 img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.icono img{
+
+        width: 100px;
+        height: 100px;
+        
+    
+}
+
+.iconosIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.iconosIndex figure img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.iconosIndex figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionCirc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+    
